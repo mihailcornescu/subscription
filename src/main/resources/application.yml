@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: subscription
+  datasource:
+    url: jdbc:mysql://localhost/subscription-db
+    username: user
+    password: pwd
+  jpa:
+    hibernate:
+      ddl-auto: update
